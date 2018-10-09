@@ -1,0 +1,85 @@
+# depslib dependency file v1.0
+1539008911 source:c:\users\alumno\desktop\examen\alquiler.c
+
+1539009562 source:c:\users\alumno\desktop\examen\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<string.h>
+	"validacion.h"
+	<conio.h>
+	<stdlib.h>
+
+1539009388 c:\users\alumno\desktop\examen\cliente.h
+
+1539009176 c:\users\alumno\desktop\examen\validacion.h
+
+1539009585 source:c:\users\alumno\desktop\examen\juego.c
+	"juego.h"
+	<stdio.h>
+	"validacion.h"
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1539009356 c:\users\alumno\desktop\examen\juego.h
+
+1539009713 source:c:\users\alumno\desktop\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alquiler.h"
+	"cliente.h"
+	"conio.h"
+	"string.h"
+	"juego.h"
+
+1539009176 c:\users\alumno\desktop\examen\alquiler.h
+
+1539009394 source:c:\users\alumno\desktop\examen\validacion.c
+	"validacion.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1539054329 source:c:\users\alana\desktop\parcial.-master\examen\cliente.c
+	"cliente.h"
+	<stdio.h>
+	<string.h>
+	"validacion.h"
+	<conio.h>
+	<stdlib.h>
+
+1539053973 c:\users\alana\desktop\parcial.-master\examen\cliente.h
+
+1539050105 c:\users\alana\desktop\parcial.-master\examen\validacion.h
+
+1539055133 source:c:\users\alana\desktop\parcial.-master\examen\juego.c
+	"juego.h"
+	<stdio.h>
+	"validacion.h"
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1539055144 c:\users\alana\desktop\parcial.-master\examen\juego.h
+
+1539055193 source:c:\users\alana\desktop\parcial.-master\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"alquiler.h"
+	"cliente.h"
+	"conio.h"
+	"string.h"
+	"juego.h"
+
+1539049186 c:\users\alana\desktop\parcial.-master\examen\alquiler.h
+
+1539050105 source:c:\users\alana\desktop\parcial.-master\examen\validacion.c
+	"validacion.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1539048923 source:c:\users\alana\desktop\parcial.-master\examen\alquiler.c
+
