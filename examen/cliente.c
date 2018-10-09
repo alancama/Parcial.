@@ -27,26 +27,41 @@ void altacliente(eCliente clientes[],int tam)
     if(index!=-1)
     {
         aux.id=siguienteIDCliente(clientes,tam);
+
         do
         {
 
-            printf("Ingrese nombre:");
+            printf("\nIngrese nombre:");
             fflush(stdin);
             gets(aux.nombre);
         }
-        while(validarNombre(clientes[index].nombre)==0);
+        while(validarNombre(aux.nombre)==0);
 
-        printf("\nIngrese Apellido:");
-        fflush(stdin);
-        gets(aux.apellido);
+        do
+        {
 
-        printf("\nIngrese sexo:");
-        fflush(stdin);
-        scanf("%c",&aux.sexo);
+            printf("\nIngrese Apellido:");
+            fflush(stdin);
+            gets(aux.apellido);
+        }
+        while(validarNombre(aux.apellido)==0);
 
-        printf("\nIngrese domicilio:");
-        fflush(stdin);
-        gets(aux.domicilio);
+        do
+        {
+            printf("\nIngrese sexo:");
+            fflush(stdin);
+           scanf("%c",&aux.sexo);
+        }
+        while(validarNombre(&aux.sexo)==0);
+
+
+        do
+        {
+            printf("\nIngrese domicilio:");
+            fflush(stdin);
+            gets(aux.domicilio);
+        }
+        while(validarNombre(aux.domicilio)==0);
 
 
         //aux.idSector=elegirSector(sectores,5);
@@ -58,7 +73,7 @@ void altacliente(eCliente clientes[],int tam)
     }
     else
     {
-        printf("error");
+        printf("ERROR NO HAY LUGAR\n ");
     }
 }
 
@@ -185,6 +200,7 @@ void modificarCliente(eCliente clientes [],int tam)
             switch(opcion)
             {
             case 1:
+
                 printf("\nIngrese nuevo Nombre:");
                 fflush(stdin);
                 gets(clientes[indice].nombre);
@@ -210,7 +226,7 @@ void modificarCliente(eCliente clientes [],int tam)
                 printf("\ningrese nuevo domicilio:");
                 fflush(stdin);
                 gets(clientes[indice].domicilio);
-
+                system("pause");
                 break;
 
             case 5:

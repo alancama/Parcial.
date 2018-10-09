@@ -37,3 +37,4 @@ int validarNumero(char numero[])
 
     return retorno;
 }
+

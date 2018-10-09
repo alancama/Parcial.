@@ -19,6 +19,8 @@ void mostrarClientes(eCliente clientes[], int tam);
 void modificarCliente(eCliente clientes [],int tam);
 int buscarcliente(eCliente clientes [], int tam, int id );
 int obtenerEspacioLibre(eCliente clientes[], int tam);
+void bajaCliente(eCliente clientes[],int tam);
+int siguienteIDCliente(eCliente list[],int tam);
 
 
 

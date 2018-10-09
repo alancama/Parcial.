@@ -28,8 +28,8 @@ int main()
         printf("2-modifica cliente\n");
         printf("3-baja cliente\n");
         printf("4-alta juego\n");
-        printf("5-baja juego\n");
-        printf("6-modifica juego\n");
+        printf("5-modifica juego\n");
+        printf("6-baja juego\n");
         printf("7-salir\n\n");
         scanf("%d",&opcion);
 
@@ -53,15 +53,15 @@ int main()
             altaJuegos(juego,TAM);
             system("pause");
             break;
-        /*case 5:
-            listarEmpleadosPorSector(lista,10,sectores,5);
+        case 5:
+            modificarJuego(juego,TAM);
             system("pause");
             break;
         case 6:
-            ordenarXSectorYNombre(lista,10,sectores,5);
+            bajaJuego(juego,TAM);
             system("pause");
             break;
-        case 7:
+        /*case 7:
             break;
         case 8:
             mostrarAlmuerzosConEmpleados(lista,10,comidas,5,almuerzos,20);
