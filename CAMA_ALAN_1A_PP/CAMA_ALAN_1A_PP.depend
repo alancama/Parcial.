@@ -1,0 +1,98 @@
+# depslib dependency file v1.0
+1539179243 source:c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1539178646 c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1539181277 c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\juegos.h
+
+1539179394 c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\clientes.h
+	"juegos.h"
+
+1539172658 c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\utn.h
+
+1539183632 source:c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1539183632 source:c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+	"juegos.h"
+
+1539172658 source:c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
+1539183659 source:c:\users\alumno\downloads\lab1-master\lab1-master\cama_alan_1a_pp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+
+1539179243 source:c:\users\alumno\desktop\cama_alan_1a_pp\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1539178646 c:\users\alumno\desktop\cama_alan_1a_pp\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1539181277 c:\users\alumno\desktop\cama_alan_1a_pp\juegos.h
+
+1539179394 c:\users\alumno\desktop\cama_alan_1a_pp\clientes.h
+	"juegos.h"
+
+1539172658 c:\users\alumno\desktop\cama_alan_1a_pp\utn.h
+
+1539183632 source:c:\users\alumno\desktop\cama_alan_1a_pp\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1539172658 source:c:\users\alumno\desktop\cama_alan_1a_pp\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
+1539183828 source:c:\users\alumno\desktop\cama_alan_1a_pp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+

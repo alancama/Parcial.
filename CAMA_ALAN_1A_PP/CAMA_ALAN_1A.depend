@@ -1,0 +1,105 @@
+# depslib dependency file v1.0
+1539117423 source:c:\users\ezequiel\desktop\segota.ezequiel 1a\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1539010020 c:\users\ezequiel\desktop\segota.ezequiel 1a\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1539010020 c:\users\ezequiel\desktop\segota.ezequiel 1a\juegos.h
+
+1539117423 c:\users\ezequiel\desktop\segota.ezequiel 1a\clientes.h
+
+1539010020 c:\users\ezequiel\desktop\segota.ezequiel 1a\utn.h
+
+1539116831 source:c:\users\ezequiel\desktop\segota.ezequiel 1a\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1539117434 source:c:\users\ezequiel\desktop\segota.ezequiel 1a\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+	"juegos.h"
+
+1539117423 source:c:\users\ezequiel\desktop\segota.ezequiel 1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+
+1539010020 source:c:\users\ezequiel\desktop\segota.ezequiel 1a\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
+1539172657 source:c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1539174205 c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1539172657 c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\juegos.h
+
+1539172657 c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\clientes.h
+
+1539172658 c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\utn.h
+
+1539172657 source:c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1539172657 source:c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+	"juegos.h"
+
+1539172657 source:c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+
+1539172658 source:c:\users\alumno\downloads\lab1-master\lab1-master\segota.ezequiel 1a\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
