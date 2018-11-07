@@ -8,6 +8,7 @@
 #define VACIO 1
 #define BAJA 2
 
+
 void ordenamiento (eJuego juegos[],int tam)
 {
     int j;
@@ -39,8 +40,9 @@ int menu()
     printf("2-Menu Clientes\n");
     printf("3-Menu Alquileres\n");
     printf("4-listar clientes con juego\n");
-    printf("5-Salir\n");
-    option = getInt("Ingrese opcion: ");
+    printf("5-Consultas\n");
+    printf("6-Salir\n");
+    option = getInt("\nIngrese opcion: ");
     return option;
 }
 
@@ -53,8 +55,7 @@ int menuABM()
     printf("2-Modificar\n");
     printf("3-Baja\n");
     printf("4-Listar\n");
-    printf("5-Ordenamiento\n");
-    printf("6-Salir\n");
+    printf("5-Salir\n");
     option = getInt("Ingrese opcion: ");
     return option;
 }
@@ -74,7 +75,7 @@ void hardcodeoJuegos(eJuego juegos[])
 
     juegos[2].idJuego = 3;
     strcpy(juegos[2].descripcion, "tobogan 3 test");
-    juegos[2].importe = 5.55;
+    juegos[2].importe = 45656.75;
     juegos[2].isEmpty = ACTIVO;
 
     juegos[3].idJuego = 4;
@@ -277,7 +278,7 @@ void bajaJuego(eJuego juegos[], int tamaniojuegos)
     }
     else
     {
-        printf("\n\t Id\tDescripcion\Importe\n\n");
+        printf("\n\t Id\tDescripcion\tImporte\n\n");
         mostrarJuego(juegos[indice]);
         printf("\nSe eliminara el juego.\n");
         confirmacion = getValidChar("\nConfirma baja de juego (s/n)?: ", "Error al ingresar opcion. Reintente.\n\n", 's', 'n');
@@ -346,11 +347,6 @@ void abmJuegos(eJuego juegos[], int tamanioJuegos)
             system("pause");
             break;
         case 5:
-                ordenamiento(juegos,tamanioJuegos);
-                mostrarJuegos(juegos,tamanioJuegos);
-                system("pause");
-                break;
-        case 6:
             seguir = 'n';
             break;
         default:

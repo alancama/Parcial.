@@ -82,29 +82,29 @@ void ordenamientoClientes(eCliente clientes[],int tam)
     void hardcodeoClientes(eCliente clientes[])
     {
         clientes[0].idCliente = 1;
-        strcpy(clientes[0].apellido, "zzzz");
-        strcpy(clientes[0].nombre, "zzzz");
+        strcpy(clientes[0].nombre, "franco");
+        strcpy(clientes[0].apellido, "fami");
         clientes[0].sexo = 'm';
         strcpy(clientes[0].domicilio, "casa prueba1");
         clientes[0].isEmpty = ACTIVO;
 
         clientes[1].idCliente = 2;
-        strcpy(clientes[1].apellido, "bbbb");
-        strcpy(clientes[1].nombre, "bbbb");
+        strcpy(clientes[1].nombre, "alan");
+        strcpy(clientes[1].apellido, "cama");
         clientes[1].sexo = 'f';
         strcpy(clientes[1].domicilio, " casa prueba2");
         clientes[1].isEmpty = ACTIVO;
 
         clientes[2].idCliente = 3;
-        strcpy(clientes[2].apellido, "aaaa");
-        strcpy(clientes[2].nombre, "aaaa");
+        strcpy(clientes[2].nombre, "ezequiel");
+        strcpy(clientes[2].apellido, "segota");
         clientes[2].sexo = 'm';
         strcpy(clientes[2].domicilio, " casa prueba3 ");
         clientes[2].isEmpty = ACTIVO;
 
         clientes[3].idCliente = 4;
-        strcpy(clientes[3].apellido, "xxxx");
-        strcpy(clientes[3].nombre, "xxxx");
+        strcpy(clientes[3].nombre, "elias");
+        strcpy(clientes[3].apellido, "alvarez");
         clientes[3].sexo = 'm';
         strcpy(clientes[3].domicilio, "casa prueba4");
         clientes[3].isEmpty = ACTIVO;
@@ -410,13 +410,7 @@ void ordenamientoClientes(eCliente clientes[],int tam)
                 listarClientes(clientes, tamanioClientes);
                 system("pause");
                 break;
-            case 5:
-                    ordenamientoClientes(clientes,tamanioClientes);
-                    mostrarClientes(clientes,tamanioClientes);
-                    system("pause");
-                    break;
-
-            case 6:
+            case 5 :
                 seguir = 'n';
                 break;
             default:

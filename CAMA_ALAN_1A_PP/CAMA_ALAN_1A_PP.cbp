@@ -39,6 +39,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="clientes.h" />
+		<Unit filename="consultas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="consultas.h" />
 		<Unit filename="juegos.c">
 			<Option compilerVar="CC" />
 		</Unit>

@@ -96,3 +96,137 @@
 	"alquileres.h"
 	"utn.h"
 
+1539183873 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1539183873 c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1539183873 c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\juegos.h
+
+1539183873 c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\clientes.h
+	"juegos.h"
+
+1539183873 c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\utn.h
+
+1539183873 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1541428251 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+	"juegos.h"
+
+1541431214 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+
+1539183873 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
+1541431140 source:c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\consultas.c
+	"consultas.h"
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+
+1541431129 c:\users\alumno\desktop\parcial.-master\cama_alan_1a_pp\consultas.h
+	"juegos.h"
+	"alquileres.h"
+
+1541431695 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\alquileres.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+
+1541431695 c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\alquileres.h
+	"alquileres.h"
+	"juegos.h"
+	"clientes.h"
+
+1541431695 c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\juegos.h
+
+1541431695 c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\clientes.h
+	"juegos.h"
+
+1541431695 c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\utn.h
+
+1541550163 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\clientes.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"clientes.h"
+	"juegos.h"
+	"utn.h"
+
+1541549259 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\juegos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"juegos.h"
+	"clientes.h"
+	"utn.h"
+	"juegos.h"
+
+1541543785 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\main.c
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+	"consultas.h"
+
+1541431695 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<ctype.h>
+
+1541550379 source:c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\consultas.c
+	"consultas.h"
+	<stdio.h>
+	<stdlib.h>
+	"juegos.h"
+	"clientes.h"
+	"alquileres.h"
+	"utn.h"
+	"string.h"
+
+1541549487 c:\users\alana\desktop\clases-programacion-master\parcial.-master\cama_alan_1a_pp\consultas.h
+	"juegos.h"
+	"alquileres.h"
+

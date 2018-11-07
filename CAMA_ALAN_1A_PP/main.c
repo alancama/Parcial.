@@ -4,7 +4,8 @@
 #include "clientes.h"
 #include "alquileres.h"
 #include "utn.h"
-#define TAMJUEGOS 5
+#include "consultas.h"
+#define TAMJUEGOS 4
 #define TAMCLIENTES 6
 #define TAMALQUILERES 5
 
@@ -41,10 +42,15 @@ int main()
             system("pause");
             break;
         case 4:
-                listarClientesXjuego(clientes,TAMCLIENTES,juegos,TAMJUEGOS);
-                system("pause");
-                break;
+            listarClientesXjuego(clientes,TAMCLIENTES,juegos,TAMJUEGOS);
+            system("pause");
+            break;
+
         case 5:
+            abmConsultas(alquileres,TAMALQUILERES,juegos,TAMJUEGOS,clientes,TAMCLIENTES);
+            system("pause");
+            break;
+        case 6:
 
             seguir = 'n';
             break;
@@ -52,6 +58,7 @@ int main()
             printf("Error, ingreso una opcion no valida. Reintente.\n\n");
             system("pause");
         }
-    }while(seguir == 's');
+    }
+    while(seguir == 's');
     return 0;
 }
